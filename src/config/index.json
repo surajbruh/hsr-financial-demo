@@ -1,0 +1,48 @@
+{
+    "company": {
+        "brandName": "HSR Financial Broker",
+        "tagline": "Empowering you For better Future",
+        "embeddedLocation": "https://maps.google.com/maps?q=Office+104-105+Level+1+Emaar+Square+Building+4+Sheikh+Mohammed+Bin+Rashid+Boulevard+Downtown+Dubai+UAE&output=embed"
+    },
+    "contact": {
+        "address": "2028 Burjuman Business Tower, Burjuman, Dubai - UAE",
+        "phone": "+971 50 631 9396",
+        "email": "sajid@hsrfin.com",
+        "helpdesk_hours": "24/7"
+    },
+    "navigation": [
+        {
+            "name": "home",
+            "route": "/"
+        },
+        {
+            "name": "about us",
+            "route": "/"
+        },
+        {
+            "name": "our services",
+            "route": "/"
+        },
+        {
+            "name": "contact us",
+            "route": "/"
+        }
+    ],
+    "footer": {
+        "about": {
+            "established_year": 2021,
+            "description": "HSR Financial Broker is a global stakeholder relations and consultancy started in 2021 providing tailored financial consulting and advisory services.",
+            "mission_points": [
+                "Identify critical obstacles to forward progress",
+                "Develop a coherent approach to overcoming them",
+                "Define company mission and prioritize objectives",
+                "Deliver solutions within agreed timeframe"
+            ]
+        }
+    },
+    "social": {
+        "facebook": "https://facebook.com",
+        "instagram": "https://instagram.com",
+        "linkedin": "https://linkedin.com"
+    }
+}

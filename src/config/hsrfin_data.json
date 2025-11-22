@@ -1,0 +1,76 @@
+{
+  "source_url": "https://hsrfin.com",
+  "scraped_date": "2025-11-21",
+  "site_name": "HSR Financial Broker",
+  "tagline": "Empowering you For better Future",
+  "description": "HSR Financial Broker is a global stakeholder relations and consultancy started in 2021 providing tailored financial consulting and advisory services.",
+  "contact": {
+    "address": "2028 Burjuman Business Tower, Burjuman, Dubai - UAE",
+    "phone": "+971 50 631 9396",
+    "email": "sajid@hsrfin.com",
+    "helpdesk_hours": "24/7"
+  },
+  "services": [
+    "Advisory Services",
+    "Client Advisory",
+    "Institutional Advisory",
+    "Mortgage Brokerage",
+    "Management Consultancy",
+    "Analytics Solutions",
+    "Business Growth",
+    "Customer Satisfaction"
+  ],
+  "about": {
+    "established_year": 2021,
+    "summary": "Fast-growing financial consultants offering tailored solutions with dedicated full-time support.",
+    "mission_points": [
+      "Identify critical obstacles to forward progress",
+      "Develop a coherent approach to overcoming them",
+      "Define company mission and prioritize objectives",
+      "Deliver solutions within agreed timeframe"
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "These people are the best, specially in case its your first-time like me. They give the most suited advise and the timeframe is unbelievably the exact.",
+      "author": "Jhon Martin",
+      "role": "Chairnan and founder"
+    },
+    {
+      "quote": "Mortgaging has really become easy with reliable parties and most trusted sources. The overall processing is very easy and you get support at every step. People here are really kind and helpful.",
+      "author": "Alena Due",
+      "role": "Business man"
+    }
+  ],
+  "statistics": {
+    "help_desk_hours": "24/7",
+    "awards_winning_count": 1545,
+    "our_equipments_count": 256,
+    "complete_cases_count": 256,
+    "industry_expertise_count": 35
+  },
+  "quick_links": [
+    "Advisory Services",
+    "Client Advisory",
+    "Institutional Advisory",
+    "Mortgage Brokerage",
+    "Management Consultancy"
+  ],
+  "latest_news": [
+    {
+      "date": "May 01, 2019",
+      "title": "Successful Growth In Business 2018"
+    },
+    {
+      "date": "Jan 23, 2022",
+      "title": "Achieving Best Business Awards"
+    }
+  ],
+  "legal": {
+    "copyright": "Copyright © 2022 HSR Financial Broker. All rights reserved."
+  },
+  "developer": {
+    "name": "Innoventure Fintech Pvt Ltd",
+    "site": "innoventurefintech.com"
+  }
+}

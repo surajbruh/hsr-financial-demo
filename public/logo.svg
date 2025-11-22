@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 115" width="365" height="115">
+  <title>H HSR Logo</title>
+  <defs>
+    <style>
+      .serif-font {
+        font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(5, 5)">
+    
+    <!-- Left Black Section -->
+    <rect x="0" y="0" width="105" height="105" fill="#0f1012" />
+    
+    <!-- Right White Section with Borders -->
+    <rect x="105" y="7.5" width="245" height="90" fill="#ffffff" stroke="#0f1012" stroke-width="15" />
+    
+    <!-- Text: H (Left) -->
+    <text x="52.5" y="82" text-anchor="middle" fill="#ffffff" font-size="90" font-weight="bold" class="serif-font">H</text>
+    
+    <!-- Text: HSR (Right) -->
+    <text x="227.5" y="82" text-anchor="middle" fill="#0f1012" font-size="90" font-weight="bold" class="serif-font" letter-spacing="-1">HSR</text>
+    
+  </g>
+</svg>
