@@ -8,35 +8,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="w-full shadow-sm bg-zinc-200">
-
-            {/* ---------------- TOP HEADER BAR ---------------- */}
-            <div className="bg-black text-white w-full hidden lg:block">
-                <div className="w-[80vw] mx-auto py-2 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-0">
-
-                    {/* LOCATION */}
-                    <div className="text-sm flex items-center gap-2">
-                        <MapPin strokeWidth={1.5} size={18} />
-                        <span className="text-center md:text-left">{config.contact.address}</span>
-                    </div>
-
-                    {/* CONTACT DETAILS */}
-                    <div className="flex items-center flex-col md:flex-row gap-2 md:gap-4">
-
-                        <div className="text-sm flex items-center gap-2">
-                            <Phone strokeWidth={1.5} size={18} />
-                            <span>{config.contact.phone}</span>
-                        </div>
-
-                        <div className="text-sm flex items-center gap-2">
-                            <Mail strokeWidth={1.5} size={18} />
-                            <span>{config.contact.email}</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
+        <header className="fixed top-0 z-10 w-full">
             {/* ---------------- MAIN NAVIGATION BAR ---------------- */}
             <div className="w-[80vw] mx-auto flex items-center justify-between py-4 relative">
 
