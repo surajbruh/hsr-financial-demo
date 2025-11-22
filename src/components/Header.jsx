@@ -8,10 +8,10 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className="w-full shadow-sm">
+        <header className="w-full shadow-sm bg-zinc-200">
 
             {/* ---------------- TOP HEADER BAR ---------------- */}
-            <div className="bg-black text-white w-full">
+            <div className="bg-black text-white w-full hidden lg:block">
                 <div className="w-[80vw] mx-auto py-2 flex flex-col md:flex-row items-center justify-between gap-2 md:gap-0">
 
                     {/* LOCATION */}
