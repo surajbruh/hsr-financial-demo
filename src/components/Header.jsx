@@ -2,10 +2,13 @@ import { useState } from "react";
 import { Menu, X, MapPin, Phone, Mail } from "lucide-react";
 import config from "../config/index.json";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
     const [selected, setSelected] = useState("home");
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const navigate = useNavigate()
 
     return (
         <header className="fixed top-0 z-10 w-full">
@@ -13,7 +16,9 @@ const Header = () => {
             <div className="w-[80vw] mx-auto flex items-center justify-between py-4 relative">
 
                 {/* LOGO */}
-                <div className="w-[125px]">
+                <div
+                    onClick={() => navigate("/")}
+                    className="w-[125px]">
                     <img
                         className="w-full h-full object-cover object-center"
                         src="/logo.svg"
