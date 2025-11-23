@@ -1,18 +1,35 @@
-import { useState } from "react";
-import { Menu, X, MapPin, Phone, Mail } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { Menu, X } from "lucide-react";
 import config from "../config/index.json";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
-    const [selected, setSelected] = useState("home");
+    const navBarRef = useRef(null)
     const [menuOpen, setMenuOpen] = useState(false);
-
+    const [isScrolled, setIsScrolled] = useState(false); // Add this state
     const navigate = useNavigate()
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Cleanup function to remove listener
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [])
+
     return (
-        <header className="fixed top-0 z-10 w-full">
-            {/* ---------------- MAIN NAVIGATION BAR ---------------- */}
+        <header
+            ref={navBarRef}
+            className={`sticky md:fixed top-0 z-10 w-full transition-all duration-300 ${isScrolled ? 'bg-gray-50 shadow-md' : 'bg-transparent'
+                }`}>
+            {/* Rest of your code stays the same */}
             <div className="w-[80vw] mx-auto flex items-center justify-between py-4 relative">
 
                 {/* LOGO */}
@@ -50,19 +67,17 @@ const Header = () => {
                                 key={navItem.name}
                                 className="uppercase font-semibold px-4 py-2 cursor-pointer"
                             >
-                                <Link
-                                    to={navItem.route}
-                                    className={`${selected === navItem.name
+                                <NavLink
+                                    to={navItem.href}
+                                    className={({ isActive }) => isActive
                                         ? "text-(--accent-color) border-b-2 border-(--accent-color)"
-                                        : "text-gray-800 hover:text-(--accent-color)"
-                                        }`}
+                                        : "text-gray-800 hover:text-(--accent-color)"}
                                     onClick={() => {
-                                        setSelected(navItem.name);
                                         setMenuOpen(false);
                                     }}
                                 >
                                     {navItem.name}
-                                </Link>
+                                </NavLink>
                             </li>
                         ))}
 

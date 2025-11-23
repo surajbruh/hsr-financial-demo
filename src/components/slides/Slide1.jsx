@@ -4,7 +4,7 @@ import config from "../../config/index.json"
 const Slide1 = ({ imageURL }) => {
     return (
         <div
-            className="relative bg-[url(/images/background.jpg)] bg-no-repeat bg-center bg-cover min-h-[70vh] md:min-h-screen flex items-center">
+            className="relative bg-[url(/images/background.jpg)] bg-no-repeat bg-center bg-cover min-h-[80vh] md:min-h-screen flex items-center">
             <div className="w-full">
                 <div className="mx-auto w-[90vw] md:w-[80vw]">
                     <div className="flex flex-col justify-center py-16 md:py-0">

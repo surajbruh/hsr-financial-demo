@@ -2,7 +2,7 @@ import React from 'react'
 
 const Slide2 = () => {
     return (
-        <div className="relative bg-[url(/images/background2.jpg)] bg-no-repeat bg-center bg-cover min-h-[70vh] md:min-h-screen flex items-center">
+        <div className="relative bg-[url(/images/background2.jpg)] bg-no-repeat bg-center bg-cover min-h-[80vh] md:min-h-screen flex items-center">
             {/* Optional overlay for better text readability */}
             <div className="absolute inset-0 bg-black/30"></div>
 

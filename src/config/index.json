@@ -13,19 +13,19 @@
     "navigation": [
         {
             "name": "home",
-            "route": "/"
+            "href": "/"
         },
         {
             "name": "about us",
-            "route": "/"
+            "href": "/about"
         },
         {
             "name": "our services",
-            "route": "/"
+            "href": "/services"
         },
         {
             "name": "contact us",
-            "route": "/contact"
+            "href": "/contact"
         }
     ],
     "footer": {
