@@ -46,6 +46,7 @@ const Header = () => {
                                 className="uppercase font-semibold px-4 py-2 cursor-pointer"
                             >
                                 <Link
+                                    to={navItem.route}
                                     className={`${selected === navItem.name
                                         ? "text-(--accent-color) border-b-2 border-(--accent-color)"
                                         : "text-gray-800 hover:text-(--accent-color)"

@@ -1,12 +1,10 @@
 import React from "react";
 import Carousel from "../components/Carousel";
-import EmbeddedMap from "../components/EmbeddedMap";
 
 const LandingPage = () => {
   return (
-    <main>
+    <main className="bg-gray-50">
       <Carousel />
-      <EmbeddedMap />
     </main>
   );
 };

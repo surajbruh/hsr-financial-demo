@@ -25,7 +25,7 @@
         },
         {
             "name": "contact us",
-            "route": "/"
+            "route": "/contact"
         }
     ],
     "footer": {
