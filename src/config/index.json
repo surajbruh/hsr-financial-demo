@@ -108,5 +108,47 @@
             "name": "Sara Mitchell",
             "designation": "Consultant"
         }
+    ],
+    "teamData": [
+        {
+            "name": "Johnathan Mercer",
+            "designation": "Group CEO",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "Amelia Cross",
+            "designation": "Chief Operating Officer (COO)",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "Rahul Deshmukh",
+            "designation": "Chief Financial Officer (CFO)",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "Sophia Bennett",
+            "designation": "Chief Marketing Officer (CMO)",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "Michael Andersen",
+            "designation": "Chief Technology Officer (CTO)",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "Layla Hassan",
+            "designation": "Director of Global Expansion",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "David Kim",
+            "designation": "Head of Client Relations",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        },
+        {
+            "name": "Elena Rodriguez",
+            "designation": "Human Resources Director",
+            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+        }
     ]
 }

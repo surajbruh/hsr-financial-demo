@@ -1,10 +1,12 @@
 import React from 'react'
 import ContactSection from "../components/ContactSection";
 import EmbeddedMap from "../components/EmbeddedMap"
+import PageBanner from '../components/PageBanner';
 
 const ContactPage = () => {
     return (
         <div>
+            <PageBanner page={"contact"} />
             <section className="w-full py-8 sm:py-12 md:py-16 lg:py-20">
                 <div className="max-w-7xl mx-auto">
                     {/* Header */}

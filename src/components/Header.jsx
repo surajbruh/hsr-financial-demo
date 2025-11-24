@@ -27,7 +27,7 @@ const Header = () => {
     return (
         <header
             ref={navBarRef}
-            className={`sticky md:fixed top-0 z-10 w-full transition-all duration-300 ${isScrolled ? 'bg-gray-50 shadow-md' : 'bg-transparent'
+            className={`sticky md:fixed top-0 z-100 w-full transition-all duration-300 ${isScrolled ? 'bg-gray-50 shadow-md' : 'bg-transparent'
                 }`}>
             {/* Rest of your code stays the same */}
             <div className="w-[80vw] mx-auto flex items-center justify-between py-4 relative">
