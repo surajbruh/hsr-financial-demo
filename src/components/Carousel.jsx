@@ -1,4 +1,3 @@
-import config from "../config/index.json"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Slide1 from "./slides/Slide1";

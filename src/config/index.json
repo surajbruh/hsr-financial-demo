@@ -86,5 +86,27 @@
             "content": "Whether you’re just getting started or building a diverse portfolio, our investment experts help you make informed decisions. Explore mutual funds, SIPs, equity options, bonds, and wealth-management services that fit your financial goals perfectly.",
             "buttonText": "Start Investing"
         }
+    ],
+    "quotes": [
+        {
+            "quote": "“The service was incredibly smooth and hassle-free. The team guided me through every step and made the entire process feel effortless.”",
+            "name": "Jonathan Reed",
+            "designation": "Entrepreneur"
+        },
+        {
+            "quote": "“I’ve never experienced such professional and transparent support. They truly care about customer satisfaction and deliver beyond expectations.”",
+            "name": "Mariana Lopez",
+            "designation": "Marketing Specialist"
+        },
+        {
+            "quote": "“Their attention to detail and quality of service is unmatched. I felt completely supported from start to finish.”",
+            "name": "Chris Walker",
+            "designation": "Project Manager"
+        },
+        {
+            "quote": "“Reliable, quick, and extremely helpful. I would recommend them to anyone looking for trustworthy guidance.”",
+            "name": "Sara Mitchell",
+            "designation": "Consultant"
+        }
     ]
 }
