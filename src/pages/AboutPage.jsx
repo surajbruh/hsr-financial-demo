@@ -1,6 +1,8 @@
 import React from "react";
 import config from "../config/index.json";
 import { Target } from "lucide-react";
+import ClientSection from "../components/ClientSection";
+import PartnerSection from "../components/PartnerSection";
 
 const data = [
   { value: "12", label: "Years of Excellence" },
@@ -40,6 +42,12 @@ const recordsData = [
   },
 ];
 
+const description = [
+  "Creative Zone is the leading and most trusted business setup advisor in the Middle East, providing valuable support to aspiring entrepreneurs and SMEs since 2010.",
+  "With an impressive track record of assisting over 75,000 businesses locally and internationally, Creative Zone has established itself as the one - stop shop for companies seeking business solutions.",
+  "Our services cover every aspect of business setup, from seamless licensing processes to customized value - added solutions.With flexible payment plans and tailored services, we empower companies to promote, sustain and accelerate their operations."
+]
+
 const AboutPage = () => {
   const uploadedImg = "/test.jpg";
 
@@ -65,8 +73,13 @@ const AboutPage = () => {
 
       {/* Description */}
       <section className="px-4 py-12">
-        <div className="mx-auto lg:w-[60vw] space-y-4">
-          <blockquote className="italic font-light text-lg md:text-2xl leading-snug">
+        <div className="mx-auto lg:w-[60vw] space-y-6 text-xl">
+          {
+            description.map((item) => (
+              <p>{item}</p>
+            ))
+          }
+          <blockquote className="italic font-light text-lg md:text-3xl leading-snug">
             "We’ve helped startups become scale-ups, and guided SMEs into new
             markets—offering more than just trade licenses, but real
             partnerships that enable growth."
@@ -74,8 +87,67 @@ const AboutPage = () => {
         </div>
       </section>
 
+      {/* alliance section */}
+      <div
+        className="relative min-h-[70vh]"
+        style={{
+          backgroundImage: `url(${uploadedImg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/50 flex items-center justify-center p-4 sm:p-6 md:p-10">
+
+          {/* Content container */}
+          <section
+            className="
+        text-white text-center 
+        w-full max-w-4xl 
+        space-y-6 
+        sm:space-y-8 
+        md:space-y-10
+      "
+          >
+            <h1
+              className="
+          font-semibold 
+          text-2xl 
+          sm:text-3xl 
+          md:text-4xl 
+          lg:text-5xl
+        "
+            >
+              A Strategic Alliance with Encor Group
+            </h1>
+
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed opacity-90">
+              In January 2025, Creative Zone embarked on a transformative journey by joining
+              forces with Encor Group, a leading corporate, trust, and fund services platform
+              headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent
+              Asian private equity firm, operates across key markets including China, Southeast Asia,
+              and the GCC. This acquisition not only signifies Encor’s commitment to expanding its
+              geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly
+              growing GCC corporate services sector.
+            </p>
+
+            <p className="text-sm sm:text-base md:text-lg leading-relaxed opacity-90">
+              In January 2025, Creative Zone embarked on a transformative journey by joining
+              forces with Encor Group, a leading corporate, trust, and fund services platform
+              headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent
+              Asian private equity firm, operates across key markets including China, Southeast Asia,
+              and the GCC. This acquisition not only signifies Encor’s commitment to expanding its
+              geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly
+              growing GCC corporate services sector.
+            </p>
+          </section>
+        </div>
+      </div>
+
+
       {/* ⭐ Records Section */}
       <section className="px-4 py-12 bg-gray-50">
+        <h1 className="text-3xl lg:text-4xl text-center font-semibold mb-10">Why Choose HSR financial?</h1>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {recordsData.map((item, index) => (
             <div
@@ -148,6 +220,25 @@ const AboutPage = () => {
           ))}
         </div>
       </section>
+
+      {/* clients and partner section */}
+      <div className="py-24 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 space-y-12">
+        <div>
+          <h1
+            className="capitalize font-semibold text-center text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 md:mb-8">
+            some of our <span className="text-(--accent-color)">partners</span>
+          </h1>
+          <PartnerSection />
+        </div>
+        <div>
+          <h1
+            className="capitalize font-semibold text-center text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 md:mb-8">
+            some of our <span className="text-(--accent-color)">clients</span>
+          </h1>
+          <ClientSection />
+        </div>
+      </div>
+
 
       {/* Stats Section */}
       <section className="relative py-16 bg-[url(/meeting.jpg)] bg-cover bg-center">
