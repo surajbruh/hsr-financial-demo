@@ -3,15 +3,9 @@ import config from "../config/index.json";
 import { Target } from "lucide-react";
 import ClientSection from "../components/ClientSection";
 import PartnerSection from "../components/PartnerSection";
+import StatsSection from "../components/StatsSection";
+import AllianceSection from "../components/AllianceSection";
 
-const data = [
-  { value: "12", label: "Years of Excellence" },
-  { value: "40", label: "Global Awards" },
-  { value: "120,000", label: "Active Clients" },
-  { value: "220", label: "Skilled Professionals" },
-  { value: "32", label: "Countries Served" },
-  { value: "98%", label: "Service Success Rate" },
-];
 
 // ⭐ NEW — Dummy Record Data
 const recordsData = [
@@ -54,31 +48,44 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen text-gray-900">
 
-      {/* Banner */}
       <header
-        className="relative md:h-screen h-[80vh] w-full"
+        className="relative w-full h-[80vh] md:h-screen flex items-center"
         style={{
-          backgroundImage: `url(${uploadedImg})`,
+          backgroundImage: `url(/about.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 flex items-center justify-center h-full">
-          <h1 className="text-white uppercase font-semibold text-2xl md:text-3xl lg:text-4xl">
-            current page
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-[1px]" />
+
+        {/* Content */}
+        <div className="relative z-10 w-full max-w-[80vw] mx-auto px-6 md:px-10 lg:px-16">
+          <h1
+            className="text-white font-semibold uppercase tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-7xl ">
+            Welcome to
+            <br />
+            <strong className="">
+              HSR Financial
+            </strong>
           </h1>
+
+          {/* Optional Subtitle (Remove if not needed) */}
+          <p
+            className="text-white opacity-90 mt-6 text-sm sm:text-base md:text-lg max-w-xl"
+          >
+            Empowering businesses with strategic financial expertise and global corporate solutions.
+          </p>
         </div>
       </header>
 
       {/* Description */}
       <section className="px-4 py-12">
-        <div className="mx-auto lg:w-[60vw] space-y-6 text-xl">
-          {
-            description.map((item) => (
-              <p>{item}</p>
-            ))
-          }
+        <div className="mx-auto lg:w-[60vw] space-y-6 text-base sm:text-lg md:text-xl">
+          {description.map((item, index) => (
+            <p key={index}>{item}</p>
+          ))}
+
           <blockquote className="italic font-light text-lg md:text-3xl leading-snug">
             "We’ve helped startups become scale-ups, and guided SMEs into new
             markets—offering more than just trade licenses, but real
@@ -87,63 +94,8 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* alliance section */}
-      <div
-        className="relative min-h-[70vh]"
-        style={{
-          backgroundImage: `url(${uploadedImg})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black/50 flex items-center justify-center p-4 sm:p-6 md:p-10">
-
-          {/* Content container */}
-          <section
-            className="
-        text-white text-center 
-        w-full max-w-4xl 
-        space-y-6 
-        sm:space-y-8 
-        md:space-y-10
-      "
-          >
-            <h1
-              className="
-          font-semibold 
-          text-2xl 
-          sm:text-3xl 
-          md:text-4xl 
-          lg:text-5xl
-        "
-            >
-              A Strategic Alliance with Encor Group
-            </h1>
-
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed opacity-90">
-              In January 2025, Creative Zone embarked on a transformative journey by joining
-              forces with Encor Group, a leading corporate, trust, and fund services platform
-              headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent
-              Asian private equity firm, operates across key markets including China, Southeast Asia,
-              and the GCC. This acquisition not only signifies Encor’s commitment to expanding its
-              geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly
-              growing GCC corporate services sector.
-            </p>
-
-            <p className="text-sm sm:text-base md:text-lg leading-relaxed opacity-90">
-              In January 2025, Creative Zone embarked on a transformative journey by joining
-              forces with Encor Group, a leading corporate, trust, and fund services platform
-              headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent
-              Asian private equity firm, operates across key markets including China, Southeast Asia,
-              and the GCC. This acquisition not only signifies Encor’s commitment to expanding its
-              geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly
-              growing GCC corporate services sector.
-            </p>
-          </section>
-        </div>
-      </div>
-
+      {/* Alliance section */}
+      <AllianceSection />
 
       {/* ⭐ Records Section */}
       <section className="px-4 py-12 bg-gray-50">
@@ -241,21 +193,7 @@ const AboutPage = () => {
 
 
       {/* Stats Section */}
-      <section className="relative py-16 bg-[url(/meeting.jpg)] bg-cover bg-center">
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="relative z-10 max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-white text-center">
-            {data.map((item, i) => (
-              <div key={i} className="flex flex-col items-center">
-                <div className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                  {item.value}
-                </div>
-                <div className="mt-2 text-sm md:text-base">{item.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <StatsSection />
 
     </div>
   );

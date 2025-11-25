@@ -27,7 +27,7 @@ const Header = () => {
     return (
         <header
             ref={navBarRef}
-            className={`sticky md:fixed top-0 z-100 w-full transition-all duration-300 ${isScrolled ? 'bg-gray-50 shadow-md' : 'bg-transparent'
+            className={`sticky md:fixed top-0 z-100 w-full transition-all duration-300 ${isScrolled ? 'bg-zinc-900 shadow-md' : 'bg-transparent'
                 }`}>
             {/* Rest of your code stays the same */}
             <div className="w-[80vw] mx-auto flex items-center justify-between py-4 relative">
@@ -65,13 +65,13 @@ const Header = () => {
                         {config.navigation.map((navItem) => (
                             <li
                                 key={navItem.name}
-                                className="uppercase font-semibold px-4 py-2 cursor-pointer"
+                                className="uppercase font-semibold px-4 py-2 cursor-pointer text-white"
                             >
                                 <NavLink
                                     to={navItem.href}
                                     className={({ isActive }) => isActive
                                         ? "text-(--accent-color) border-b-2 border-(--accent-color)"
-                                        : "text-gray-800 hover:text-(--accent-color)"}
+                                        : "text-gray-100 hover:text-(--accent-color)"}
                                     onClick={() => {
                                         setMenuOpen(false);
                                     }}
