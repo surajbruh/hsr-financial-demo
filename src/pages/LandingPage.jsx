@@ -1,29 +1,24 @@
-import React from "react";
-import Carousel from "../components/Carousel";
-import LandingGrid from "../components/LandingGrid/LandingGrid";
-import Testimonials from "../components/Testimonials";
-import StepSection from "../components/StepsSection";
-import Slide2 from "../components/slides/Slide2";
-import LandingSection from "../components/LandingSection";
-import ContactSection from "../components/ContactSection";
-import StatsSection from "../components/StatsSection";
-import JurisdictionSection from "../components/JurisdictionSection";
+import React from 'react'
+import LandingSection from '../components/Landing/LandingSection'
+import JurisdictionSection from '../components/Jurisdiction/JurisdictionSection'
+import Testimonials from '../components/Testimonials/Testimonials'
+import LandingGrid from '../components/LandingGrid/LandingGrid'
+import StatsSection from '../components/StatsSection'
+import ContactSection from '../components/Contact/ContactSection'
 
 const LandingPage = () => {
   return (
-    <main className="bg-gray-50">
-      {/* <Carousel /> */}
-      {/* <Slide2 /> */}
-      <Testimonials />
+    <main>
       <LandingSection />
       <JurisdictionSection />
+      <Testimonials />
       <LandingGrid />
       <StatsSection />
-      <div className="py-[5vw]">
+      <div className='py-[5vw]'>
         <ContactSection />
       </div>
-    </main >
-  );
-};
+    </main>
+  )
+}
 
-export default LandingPage;
+export default LandingPage

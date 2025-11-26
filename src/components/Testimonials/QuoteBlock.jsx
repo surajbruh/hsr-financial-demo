@@ -1,12 +1,6 @@
 import React from 'react'
 import { Quote } from 'lucide-react'
 
-const dummy = {
-    quote: "“The service was incredibly smooth and hassle-free. The team guided me through every step and made the entire process feel effortless.”",
-    name: "Jonathan Reed",
-    designation: "Entrepreneur"
-}
-
 const QuoteBlock = ({ quote, name, designation }) => {
     return (
         <div className="flex gap-4 md:gap-6 p-2">

@@ -1,15 +1,6 @@
 import React, { useState } from "react";
 
-const steps = [
-    "One-to-one Consultation with Business Setup Advisor",
-    "Selecting the Right Jurisdiction",
-    "Applying for Trade License",
-    "Initiating Visa and Emirates ID Applications",
-    "Register for Corporate Tax",
-    "Opening a Corporate Bank Account",
-];
-
-const StepSection = () => {
+const StepSection = ({ steps }) => {
     const [active, setActive] = useState(0); // default = 6th step (index 5)
 
     return (

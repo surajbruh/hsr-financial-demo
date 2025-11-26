@@ -176,5 +176,236 @@
             "designation": "Human Resources Director",
             "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
         }
-    ]
+    ],
+    "locations": [
+        "Dubai",
+        "Abu Dhabi",
+        "Sharjah",
+        "Ras Al Khaimah"
+    ],
+    "awardDescription": [
+        "Free Zone Industry Excellence Award 2016",
+        "Most Innovative Business Setup Consultancy 2020",
+        "Corporate Service Provider of the Year 2022",
+        "Finalist SME of the Year 2016",
+        "Certificate of Appreciation February 2020"
+    ],
+    "data": [
+        {
+            "value": "12",
+            "label": "Years of Excellence"
+        },
+        {
+            "value": "40",
+            "label": "Global Awards"
+        },
+        {
+            "value": "120,000",
+            "label": "Active Clients"
+        },
+        {
+            "value": "220",
+            "label": "Skilled Professionals"
+        },
+        {
+            "value": "32",
+            "label": "Countries Served"
+        },
+        {
+            "value": "98%",
+            "label": "Service Success Rate"
+        }
+    ],
+    "aboutDescription": [
+        "Creative Zone is the leading and most trusted business setup advisor in the Middle East, providing valuable support to aspiring entrepreneurs and SMEs since 2010.",
+        "With an impressive track record of assisting over 75,000 businesses locally and internationally, Creative Zone has established itself as the one - stop shop for companies seeking business solutions.",
+        "Our services cover every aspect of business setup, from seamless licensing processes to customized value - added solutions.With flexible payment plans and tailored services, we empower companies to promote, sustain and accelerate their operations."
+    ],
+    "recordsData": [
+        {
+            "title": "Proven Track Record",
+            "description": "Over 12,000+ companies successfully incorporated with complete guidance."
+        },
+        {
+            "title": "End-to-End Support",
+            "description": "From trade license approval to residency visa assistance — we handle everything."
+        },
+        {
+            "title": "Industry Expertise",
+            "description": "Our consultants bring decades of experience working with global markets."
+        },
+        {
+            "title": "Client-Centric Approach",
+            "description": "Personalized strategies tailored to your business goals and long-term growth."
+        },
+        {
+            "title": "Transparent Process",
+            "description": "No hidden fees. No unnecessary documentation. Just clarity and results."
+        }
+    ],
+    "allianceSection": {
+        "backgroundImage": "/statue.png",
+        "heading": "A Strategic Alliance with Encor Group",
+        "paragraphs": [
+            "In January 2025, Creative Zone embarked on a transformative journey by joining forces with Encor Group, a leading corporate, trust, and fund services platform headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent Asian private equity firm, operates across key markets including China, Southeast Asia, and the GCC. This acquisition not only signifies Encor’s commitment to expanding its geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly growing GCC corporate services sector.",
+            "The integration with Encor Group enhances our capabilities, allowing us to offer enriched services and access to a broader network, facilitating cross-border business opportunities and fostering long-term growth for our clients."
+        ]
+    },
+    "aboutPage": {
+        "hero": {
+            "backgroundImage": "/about.png",
+            "title": "Welcome to HSR Financial",
+            "subtitle": "Empowering businesses with strategic financial expertise and global corporate solutions."
+        },
+        "descriptionSection": {
+            "paragraphs": [
+                "Creative Zone is the leading and most trusted business setup advisor in the Middle East, providing valuable support to aspiring entrepreneurs and SMEs since 2010.",
+                "With an impressive track record of assisting over 75,000 businesses locally and internationally, Creative Zone has established itself as the one-stop shop for companies seeking business solutions.",
+                "Our services cover every aspect of business setup, from seamless licensing processes to customized value-added solutions. With flexible payment plans and tailored services, we empower companies to promote, sustain and accelerate their operations."
+            ],
+            "quote": "We’ve helped startups become scale-ups, and guided SMEs into new markets—offering more than just trade licenses, but real partnerships that enable growth."
+        },
+        "allianceSection": {
+            "backgroundImage": "/statue.png",
+            "heading": "A Strategic Alliance with Encor Group",
+            "paragraphs": [
+                "In January 2025, Creative Zone embarked on a transformative journey by joining forces with Encor Group, a leading corporate, trust, and fund services platform headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent Asian private equity firm, operates across key markets including China, Southeast Asia, and the GCC. This acquisition not only signifies Encor’s commitment to expanding its geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly growing GCC corporate services sector.",
+                "In January 2025, Creative Zone embarked on a transformative journey by joining forces with Encor Group, a leading corporate, trust, and fund services platform headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent Asian private equity firm, operates across key markets including China, Southeast Asia, and the GCC. This acquisition not only signifies Encor’s commitment to expanding its geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly growing GCC corporate services sector."
+            ]
+        },
+        "records": [
+            {
+                "title": "Proven Track Record",
+                "description": "Over 12,000+ companies successfully incorporated with complete guidance."
+            },
+            {
+                "title": "End-to-End Support",
+                "description": "From trade license approval to residency visa assistance — we handle everything."
+            },
+            {
+                "title": "Industry Expertise",
+                "description": "Our consultants bring decades of experience working with global markets."
+            },
+            {
+                "title": "Client-Centric Approach",
+                "description": "Personalized strategies tailored to your business goals and long-term growth."
+            },
+            {
+                "title": "Transparent Process",
+                "description": "No hidden fees. No unnecessary documentation. Just clarity and results."
+            }
+        ],
+        "managementSection": {
+            "heading": "Meet Our Leadership Team",
+            "subheading": "Our success is driven by a dedicated team of professionals committed to your business journey.",
+            "ceo": {
+                "name": "Lorenzo Jooris",
+                "designation": "Group CEO, Creative Zone & Executive Leadership Team Member, Encor Group",
+                "image": "/test.jpg"
+            }
+        }
+    },
+    "servicePage": {
+        "services": [
+            {
+                "id": 1,
+                "name": "Fit Out",
+                "color": "#E91E63",
+                "image": "/logo.svg",
+                "slug": "fit-out"
+            },
+            {
+                "id": 2,
+                "name": "Banking Assistance",
+                "color": "#D32F2F",
+                "image": "/logo.svg",
+                "slug": "banking-assistance"
+            },
+            {
+                "id": 3,
+                "name": "Communication Hub",
+                "color": "#F48FB1",
+                "image": "/logo.svg",
+                "slug": "communication-hub"
+            },
+            {
+                "id": 4,
+                "name": "Certification",
+                "color": "#7986CB",
+                "image": "/logo.svg",
+                "slug": "certification"
+            },
+            {
+                "id": 5,
+                "name": "Tax & Accounting",
+                "color": "#4CAF50",
+                "image": "/logo.svg",
+                "slug": "tax-and-accounting"
+            },
+            {
+                "id": 6,
+                "name": "Recruitment",
+                "color": "#7E57C2",
+                "image": "/logo.svg",
+                "slug": "recruitment"
+            },
+            {
+                "id": 7,
+                "name": "Media & Marketing",
+                "color": "#8BC34A",
+                "image": "/logo.svg",
+                "slug": "media-and-marketing"
+            },
+            {
+                "id": 8,
+                "name": "Concierge",
+                "color": "#FF9800",
+                "image": "/logo.svg",
+                "slug": "concierge"
+            },
+            {
+                "id": 9,
+                "name": "Business Hub",
+                "color": "#00ACC1",
+                "image": "/logo.svg",
+                "slug": "business-hub"
+            }
+        ]
+    },
+    "contactPage": {
+        "hero": {
+            "backgroundImage": "/contact-bg.jpg",
+            "title": "Talk to Our Business Setup Advisors",
+            "highlight": "Business Setup Advisors",
+            "description": "We know that there are hefty processes you want to avoid. Don’t worry! We’re here to give you and your venture a promising head start."
+        },
+        "contactHeader": {
+            "subtitle": "contact us",
+            "title": "let's get started"
+        }
+    },
+    "landingPage": {
+        "hero": {
+            "backgroundImage": "/images/background2.jpg",
+            "title": "Business Setup Is Just The Beginning",
+            "subButtons": [
+                "Dubai",
+                "Abu Dhabi",
+                "Sharjah",
+                "Ras Al Khaimah"
+            ],
+            "mainHeading": "We make your corporate brand ideation",
+            "subHeading": "To Start Your Business in the UAE."
+        },
+        "stepsSection": {
+            "steps": [
+                "One-to-one Consultation with Business Setup Advisor",
+                "Selecting the Right Jurisdiction",
+                "Applying for Trade License",
+                "Initiating Visa and Emirates ID Applications",
+                "Register for Corporate Tax",
+                "Opening a Corporate Bank Account"
+            ]
+        }
+    }
 }

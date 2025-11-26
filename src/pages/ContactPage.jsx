@@ -1,12 +1,10 @@
 import React from 'react'
-import ContactSection from "../components/ContactSection";
-import EmbeddedMap from "../components/EmbeddedMap"
-import PageBanner from '../components/PageBanner';
+import ContactSection from '../components/Contact/ContactSection';
+import EmbeddedMap from "../components/Contact/EmbeddedMap"
 
 const ContactPage = () => {
     return (
         <div>
-            {/* <PageBanner page={"contact"} /> */}
             <div
                 className="h-[80vh] relative flex items-end justify-center"
                 style={{

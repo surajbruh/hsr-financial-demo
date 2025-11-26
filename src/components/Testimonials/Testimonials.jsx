@@ -1,6 +1,6 @@
 import React from "react";
 import QuoteBlock from "./QuoteBlock";
-import config from "../config/index.json";
+import config from "../../config/index.json";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";

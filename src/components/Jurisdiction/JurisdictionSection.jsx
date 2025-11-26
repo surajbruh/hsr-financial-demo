@@ -1,5 +1,5 @@
 import React from 'react'
-import config from "../config/index.json"
+import config from "../../config/index.json"
 import Jurisdiction from './JurisdictionItem'
 
 const JurisdictionSection = () => {
