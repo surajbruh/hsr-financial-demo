@@ -1,11 +1,11 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import config from "../config/index.json";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
         <footer className="bg-black text-white  pt-10 pb-6">
-            <div className="w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div className="w-[80vw] mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
                 {/* ----------- LOGO + ABOUT ----------- */}
                 <div>
@@ -38,6 +38,33 @@ const Footer = () => {
                             </li>
                         ))}
                     </ul>
+                </div>
+
+                {/* ----------- CONTACT DETAILS ----------- */}
+                <div>
+                    <h3 className="uppercase text-lg font-semibold mb-4">Contact Us</h3>
+                    <div className="flex flex-col gap-3">
+                        {/* Email */}
+                        <div className="flex items-center gap-2">
+                            <Mail size={20} strokeWidth={1.5} />
+                            <a
+                                href={`mailto:${config.contact.email}`}
+                                className="text-gray-300 hover:text-(--accent-color) transition"
+                            >
+                                {config.contact.email}
+                            </a>
+                        </div>
+                        {/* Phone */}
+                        <div className="flex items-center gap-2">
+                            <Phone size={20} strokeWidth={1.5} />
+                            <a
+                                href={`tel:${config.contact.phone}`}
+                                className="text-gray-300 hover:text-(--accent-color) transition"
+                            >
+                                {config.contact.phone}
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* ----------- SOCIAL MEDIA ----------- */}
