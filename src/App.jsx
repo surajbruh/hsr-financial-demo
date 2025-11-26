@@ -12,7 +12,7 @@ import ServicePage from './pages/ServicePage'
 const App = () => {
   return (
     <div className='relative'>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route index element={<LandingPage />} />
         <Route path='/contact' element={<ContactPage />} />
@@ -20,7 +20,7 @@ const App = () => {
         <Route path='/services' element={<ServicePage />} />
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

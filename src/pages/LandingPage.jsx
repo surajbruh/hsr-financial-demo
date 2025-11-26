@@ -13,11 +13,10 @@ const LandingPage = () => {
   return (
     <main className="bg-gray-50">
       {/* <Carousel /> */}
-      {/* <Slide2 />
-  {/* <Testimonials /> */}
+      {/* <Slide2 /> */}
+      <Testimonials />
       <LandingSection />
       <JurisdictionSection />
-      <Testimonials />
       <LandingGrid />
       <StatsSection />
       <div className="py-[5vw]">
