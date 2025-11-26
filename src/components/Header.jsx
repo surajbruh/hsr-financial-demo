@@ -9,25 +9,25 @@ const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false); // Add this state
     const navigate = useNavigate()
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         if (window.scrollY > 50) {
-    //             setIsScrolled(true);
-    //         } else {
-    //             setIsScrolled(false);
-    //         }
-    //     }
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        }
 
-    //     window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll);
 
-    //     // Cleanup function to remove listener
-    //     return () => window.removeEventListener('scroll', handleScroll);
-    // }, [])
+        // Cleanup function to remove listener
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [])
 
     return (
         <header
             ref={navBarRef}
-            className={`sticky top-0 z-100 w-full transition-all duration-300 bg-zinc-900 ${isScrolled ? 'bg-zinc-900 shadow-md' : 'bg-transparent'
+            className={`sticky md:fixed top-0 z-100 w-full transition-all duration-300 ${isScrolled ? 'bg-zinc-900 shadow-md' : 'bg-transparent'
                 }`}>
             {/* Rest of your code stays the same */}
             <div className="w-[80vw] mx-auto flex items-center justify-between py-4 relative">
@@ -55,7 +55,7 @@ const Header = () => {
                 <nav
                     className={`
                         absolute md:static top-16 left-0 w-full md:w-auto 
-                        bg-white md:bg-transparent shadow-md md:shadow-none 
+                        bg-zinc-900 text-white md:bg-transparent shadow-md md:shadow-none 
                         transition-all duration-300 z-20
                         ${menuOpen ? "block" : "hidden md:block"}
                     `}

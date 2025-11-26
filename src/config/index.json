@@ -49,6 +49,32 @@
         "https://images.unsplash.com/photo-1609867271967-a82f85c48531?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1672541298906-4aeb3edd3520?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
+    "jurisdictionData": [
+        {
+            "id": 1,
+            "setup_name": "Mainland Company Setup",
+            "setup_description": "Set up your company in Mainland and enjoy full freedom to conduct business anywhere in the UAE.",
+            "main_heading": "Unlock Unlimited Business Potential in the UAE Mainland",
+            "jurisdiction_description": "Experience the advantage of operating without geographical restrictions. Mainland companies gain access to a large consumer market, strong economic infrastructure, and diverse investment opportunities. With flexible licensing options, easier staff recruitment, and the ability to trade both locally and internationally, Mainland setup offers expansion-ready benefits for fast-growing businesses.",
+            "imageURL": "https://plus.unsplash.com/premium_photo-1747602999587-78315daf01e1?q=80&w=704&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 2,
+            "setup_name": "Free Zone Company Setup",
+            "setup_description": "Choose from 50+ UAE free zones designed for tax benefits, full foreign ownership, and fast business setup.",
+            "main_heading": "Your Gateway to Tax-Free Business Growth",
+            "jurisdiction_description": "Free zones offer 100% foreign ownership, zero corporate tax benefits, simplified setup procedures, and industry-specific infrastructure ideal for startups, SMEs, and global enterprises. Enjoy world-class facilities, easy visa processing, and complete operational control while staying cost-effective.",
+            "imageURL": "https://images.unsplash.com/photo-1612723352730-47d8e3e27d3a?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 3,
+            "setup_name": "Offshore Company Setup",
+            "setup_description": "Conduct international business with ease, confidentiality, and zero physical presence in the UAE.",
+            "main_heading": "Smart Solutions for International Business Expansion",
+            "jurisdiction_description": "Offshore companies are ideal for asset protection, global trading, and holding structures. With no office requirement, confidentiality advantages, and simplified compliance, offshore formation is the perfect solution for investors looking to expand globally while keeping operations lean and secure.",
+            "imageURL": "https://images.unsplash.com/photo-1627483787918-489f643262a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ],
     "gridData": [
         {
             "id": 1,

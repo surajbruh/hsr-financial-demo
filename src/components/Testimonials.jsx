@@ -5,7 +5,7 @@ import config from "../config/index.json"
 const Testimonials = () => {
     return (
         <div className="relative z-50 px-4 bg-[url('/meeting.jpg')] bg-cover bg-center py-10">
-            <div className="absolute inset-0 bg-black/80"></div>
+            <div className="absolute inset-0 bg-black/70" />
 
             <div className="relative z-50 max-w-[90vw] lg:w-[70vw] mx-auto flex flex-col lg:flex-row items-start lg:items-center gap-8">
 
@@ -33,7 +33,7 @@ const Testimonials = () => {
                 </div>
 
                 {/* Image */}
-                <div className="hidden lg:block w-[40%] aspect-square overflow-hidden shadow-md bg-[url('/person.png')] bg-contain bg-center">
+                <div className="hidden lg:block w-[40%] aspect-square overflow-hidden shadow-md bg-[url('/person.png')] bg-contain bg-center bg-no-repeat">
                 </div>
 
             </div>
