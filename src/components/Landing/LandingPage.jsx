@@ -1,30 +1,28 @@
-import React from "react";
-import config from "../../config/index.json";
-
-import LandingSection from "./LandingSection";
-import LandingGrid from "../../components/LandingGrid/LandingGrid";
-import JurisdictionSection from "../../components/Jurisdiction/JurisdictionSection";
-import Testimonials from "../../components/Testimonials/Testimonials";
-import StatsSection from "../StatsSection";
-import ContactSection from "../Contact/ContactSection";
+import React from 'react'
+import LandingSection from './LandingSection'
+import JurisdictionSection from './Jurisdiction/JurisdictionSection'
+import Testimonials from './Testimonials/Testimonials'
+import LandingGrid from './LandingGrid/LandingGrid'
+import StatsSection from '../StatsSection'
+import ContactSection from '../Contact/ContactSection'
 
 const LandingPage = () => {
-    const hero = config.landingPage.hero;
-
     return (
-        <main>
+        <main role="main">
             <LandingSection />
-
             <JurisdictionSection />
             <Testimonials />
             <LandingGrid />
             <StatsSection />
 
-            <div className="py-[5vw]">
+            <section aria-labelledby="contact-heading" className='py-[5vw]'>
+                <h2 id="contact-heading" className="sr-only">Contact Our Team</h2>
                 <ContactSection />
-            </div>
+            </section>
         </main>
-    );
-};
 
-export default LandingPage;
+
+    )
+}
+
+export default LandingPage

@@ -1,5 +1,5 @@
 import React from 'react'
-import config from "../../config/index.json"
+import config from "../../../config/index.json"
 import Jurisdiction from './JurisdictionItem'
 
 const JurisdictionSection = () => {
@@ -10,7 +10,7 @@ const JurisdictionSection = () => {
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-                {config.jurisdictionData.map((item) => (
+                {config.landingPage.jurisdictionData.map((item) => (
                     <Jurisdiction
                         key={item.id}
                         imageURL={item.imageURL}

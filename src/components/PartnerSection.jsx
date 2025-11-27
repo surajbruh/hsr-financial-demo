@@ -5,6 +5,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import config from "../config/index.json"
+
 const PartnerSection = () => {
     return (
         <Swiper
@@ -26,12 +28,12 @@ const PartnerSection = () => {
                 1280: { slidesPerView: 6, spaceBetween: 20 },  // large desktop
             }}
         >
-            {Array.from({ length: 8 }).map((_, index) => (
+            {config.aboutPage.PartnersClientsSection.clientImageURL.map((imageURL, index) => (
                 <SwiperSlide key={index}>
                     <div className="p-4 flex items-center justify-center rounded-lg">
                         <img
                             className="object-contain object-center w-full h-full max-h-20"
-                            src={`/clients/client${index}.png`}
+                            src={imageURL}
                             alt=""
                         />
                     </div>

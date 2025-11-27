@@ -1,21 +1,5 @@
 import React from 'react'
-
-const data = [
-    { value: "12", label: "Years of Excellence" },
-    { value: "40", label: "Global Awards" },
-    { value: "120,000", label: "Active Clients" },
-    { value: "220", label: "Skilled Professionals" },
-    { value: "32", label: "Countries Served" },
-    { value: "98%", label: "Service Success Rate" },
-];
-
-const awardDescription = [
-    "Free Zone Industry Excellence Award 2016",
-    "Most Innovative Business Setup Consultancy 2020",
-    "Corporate Service Provider of the Year 2022",
-    "Finalist SME of the Year 2016",
-    "Certificate of Appreciation February 2020"
-];
+import config from "../config/index.json"
 
 const StatsSection = () => {
     return (
@@ -33,7 +17,7 @@ const StatsSection = () => {
                     className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-white text-center"
                     aria-label="Company performance statistics"
                 >
-                    {data.map((item, i) => (
+                    {config.statsSection.data.map((item, i) => (
                         <div key={i} className="flex flex-col items-center">
                             <div className="text-3xl md:text-4xl lg:text-5xl font-bold">
                                 {item.value}
@@ -48,18 +32,18 @@ const StatsSection = () => {
                     className="mt-12 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 text-white text-center"
                     aria-label="Awards and recognitions"
                 >
-                    {awardDescription.map((desc, index) => (
+                    {config.statsSection.awards.map((awardItem, index) => (
                         <div key={index} className="flex flex-col items-center">
                             <div className="w-full h-20 flex items-center justify-center">
                                 <img
                                     className="object-contain max-h-full"
-                                    src={`/awards/award${index}.png`}
-                                    alt={`Award received: ${desc}`}
+                                    src={awardItem.awardImageURL}
+                                    alt={`Award received: ${awardItem.description}`}
                                     loading="lazy"
                                 />
                             </div>
                             <p className="mt-3 text-xs sm:text-sm md:text-base leading-snug">
-                                {desc}
+                                {awardItem.description}
                             </p>
                         </div>
                     ))}

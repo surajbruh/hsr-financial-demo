@@ -32,7 +32,7 @@ const ContactPage = () => {
             </section>
 
             {/* MAP */}
-            <EmbeddedMap />
+            <EmbeddedMap locationURL={page.embeddedMap.locationURL} />
         </div>
     );
 };

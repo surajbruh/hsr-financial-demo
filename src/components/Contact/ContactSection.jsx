@@ -1,7 +1,9 @@
 import React from 'react';
 import Form from './Form';
 
-const ContactSection = () => {
+import config from "../../config/index.json"
+
+const ContactSection = ({ imageURL }) => {
 
     return (
         <section
@@ -14,7 +16,7 @@ const ContactSection = () => {
                 {/* Left: Image */}
                 <figure className="w-full md:w-1/2 h-64 md:h-auto relative">
                     <img
-                        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                        src={config.contactPage.form.imageURL}
                         alt="Professional business team working in an office"
                         className="w-full h-full object-cover"
                         loading="lazy"

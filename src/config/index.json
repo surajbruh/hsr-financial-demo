@@ -4,12 +4,6 @@
         "tagline": "Empowering you For better Future",
         "embeddedLocation": "https://maps.google.com/maps?q=Office+104-105+Level+1+Emaar+Square+Building+4+Sheikh+Mohammed+Bin+Rashid+Boulevard+Downtown+Dubai+UAE&output=embed"
     },
-    "contact": {
-        "address": "2028 Burjuman Business Tower, Burjuman, Dubai - UAE",
-        "phone": "+971 50 631 9396",
-        "email": "sajid@hsrfin.com",
-        "helpdesk_hours": "24/7"
-    },
     "navigation": [
         {
             "name": "home",
@@ -38,217 +32,129 @@
                 "Define company mission and prioritize objectives",
                 "Deliver solutions within agreed timeframe"
             ]
+        },
+        "contact": {
+            "address": "2028 Burjuman Business Tower, Burjuman, Dubai - UAE",
+            "phone": "+971 50 631 9396",
+            "email": "sajid@hsrfin.com",
+            "helpdesk_hours": "24/7"
+        },
+        "social": {
+            "facebook": "https://facebook.com",
+            "instagram": "https://instagram.com",
+            "linkedin": "https://linkedin.com"
         }
     },
-    "social": {
-        "facebook": "https://facebook.com",
-        "instagram": "https://instagram.com",
-        "linkedin": "https://linkedin.com"
-    },
-    "imageLinks": [
-        "https://images.unsplash.com/photo-1609867271967-a82f85c48531?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1672541298906-4aeb3edd3520?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    ],
-    "jurisdictionData": [
-        {
-            "id": 1,
-            "setup_name": "Mainland Company Setup",
-            "setup_description": "Set up your company in Mainland and enjoy full freedom to conduct business anywhere in the UAE.",
-            "main_heading": "Unlock Unlimited Business Potential in the UAE Mainland",
-            "jurisdiction_description": "Experience the advantage of operating without geographical restrictions. Mainland companies gain access to a large consumer market, strong economic infrastructure, and diverse investment opportunities. With flexible licensing options, easier staff recruitment, and the ability to trade both locally and internationally, Mainland setup offers expansion-ready benefits for fast-growing businesses.",
-            "imageURL": "https://plus.unsplash.com/premium_photo-1747602999587-78315daf01e1?q=80&w=704&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    "landingPage": {
+        "hero": {
+            "backgroundImage": "/images/background2.jpg",
+            "title": "Business Setup Is Just The Beginning",
+            "subButtons": [
+                "Dubai",
+                "Abu Dhabi",
+                "Sharjah",
+                "Ras Al Khaimah"
+            ],
+            "mainHeading": "We make your corporate brand ideation",
+            "subHeading": "To Start Your Business in the UAE."
         },
-        {
-            "id": 2,
-            "setup_name": "Free Zone Company Setup",
-            "setup_description": "Choose from 50+ UAE free zones designed for tax benefits, full foreign ownership, and fast business setup.",
-            "main_heading": "Your Gateway to Tax-Free Business Growth",
-            "jurisdiction_description": "Free zones offer 100% foreign ownership, zero corporate tax benefits, simplified setup procedures, and industry-specific infrastructure ideal for startups, SMEs, and global enterprises. Enjoy world-class facilities, easy visa processing, and complete operational control while staying cost-effective.",
-            "imageURL": "https://images.unsplash.com/photo-1612723352730-47d8e3e27d3a?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "stepsSection": {
+            "steps": [
+                "One-to-one Consultation with Business Setup Advisor",
+                "Selecting the Right Jurisdiction",
+                "Applying for Trade License",
+                "Initiating Visa and Emirates ID Applications",
+                "Register for Corporate Tax",
+                "Opening a Corporate Bank Account"
+            ]
         },
-        {
-            "id": 3,
-            "setup_name": "Offshore Company Setup",
-            "setup_description": "Conduct international business with ease, confidentiality, and zero physical presence in the UAE.",
-            "main_heading": "Smart Solutions for International Business Expansion",
-            "jurisdiction_description": "Offshore companies are ideal for asset protection, global trading, and holding structures. With no office requirement, confidentiality advantages, and simplified compliance, offshore formation is the perfect solution for investors looking to expand globally while keeping operations lean and secure.",
-            "imageURL": "https://images.unsplash.com/photo-1627483787918-489f643262a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        }
-    ],
-    "gridData": [
-        {
-            "id": 1,
-            "image": "/test.jpg",
-            "mainHeading": "Empowering Your Financial Journey With Smarter, Faster Solutions.",
-            "branchName": "Banking",
-            "subHeading": "Seamless banking services designed to make your financial life easier.",
-            "content": "From instant account setup to secure digital payments, our banking division is crafted to give you complete control over your finances. Enjoy 24/7 support, transparent processes, personalized financial plans, and the convenience of smart mobile banking. Your money, managed your way.",
-            "buttonText": "Explore Banking"
+        "jurisdictionData": [
+            {
+                "id": 1,
+                "setup_name": "Mainland Company Setup",
+                "setup_description": "Set up your company in Mainland and enjoy full freedom to conduct business anywhere in the UAE.",
+                "main_heading": "Unlock Unlimited Business Potential in the UAE Mainland",
+                "jurisdiction_description": "Experience the advantage of operating without geographical restrictions. Mainland companies gain access to a large consumer market, strong economic infrastructure, and diverse investment opportunities. With flexible licensing options, easier staff recruitment, and the ability to trade both locally and internationally, Mainland setup offers expansion-ready benefits for fast-growing businesses.",
+                "imageURL": "https://plus.unsplash.com/premium_photo-1747602999587-78315daf01e1?q=80&w=704&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "id": 2,
+                "setup_name": "Free Zone Company Setup",
+                "setup_description": "Choose from 50+ UAE free zones designed for tax benefits, full foreign ownership, and fast business setup.",
+                "main_heading": "Your Gateway to Tax-Free Business Growth",
+                "jurisdiction_description": "Free zones offer 100% foreign ownership, zero corporate tax benefits, simplified setup procedures, and industry-specific infrastructure ideal for startups, SMEs, and global enterprises. Enjoy world-class facilities, easy visa processing, and complete operational control while staying cost-effective.",
+                "imageURL": "https://images.unsplash.com/photo-1612723352730-47d8e3e27d3a?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "id": 3,
+                "setup_name": "Offshore Company Setup",
+                "setup_description": "Conduct international business with ease, confidentiality, and zero physical presence in the UAE.",
+                "main_heading": "Smart Solutions for International Business Expansion",
+                "jurisdiction_description": "Offshore companies are ideal for asset protection, global trading, and holding structures. With no office requirement, confidentiality advantages, and simplified compliance, offshore formation is the perfect solution for investors looking to expand globally while keeping operations lean and secure.",
+                "imageURL": "https://images.unsplash.com/photo-1627483787918-489f643262a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+        ],
+        "testimonials": {
+            "quotes": [
+                {
+                    "quote": "“The service was incredibly smooth and hassle-free. The team guided me through every step and made the entire process feel effortless.”",
+                    "name": "Jonathan Reed",
+                    "designation": "Entrepreneur"
+                },
+                {
+                    "quote": "“I’ve never experienced such professional and transparent support. They truly care about customer satisfaction and deliver beyond expectations.”",
+                    "name": "Mariana Lopez",
+                    "designation": "Marketing Specialist"
+                },
+                {
+                    "quote": "“Their attention to detail and quality of service is unmatched. I felt completely supported from start to finish.”",
+                    "name": "Chris Walker",
+                    "designation": "Project Manager"
+                },
+                {
+                    "quote": "“Reliable, quick, and extremely helpful. I would recommend them to anyone looking for trustworthy guidance.”",
+                    "name": "Sara Mitchell",
+                    "designation": "Consultant"
+                }
+            ]
         },
-        {
-            "id": 2,
-            "image": "/test.jpg",
-            "mainHeading": "Your Trusted Partner For Insurance, Protection & Peace of Mind.",
-            "branchName": "Insurance",
-            "subHeading": "Comprehensive insurance solutions to secure every stage of your life.",
-            "content": "From health and life insurance to vehicle and travel coverage, our insurance services ensure that you and your loved ones stay protected. With easy claim processes, flexible plans, and unmatched support, we bring you peace of mind when it matters the most.",
-            "buttonText": "View Plans"
-        },
-        {
-            "id": 3,
-            "image": "/test.jpg",
-            "mainHeading": "Transforming Businesses With Technology, Innovation & Intelligence.",
-            "branchName": "IT Solutions",
-            "subHeading": "Smart digital solutions to scale your business to the next level.",
-            "content": "From cloud architecture to full-stack development, cybersecurity, AI tools, and automation services, our IT division delivers modern solutions tailored for every business. Increase efficiency, reduce costs, and stay ahead of the competition with cutting-edge tech.",
-            "buttonText": "Discover Solutions"
-        },
-        {
-            "id": 4,
-            "image": "/test.jpg",
-            "mainHeading": "Invest Smart. Grow Faster. Unlock Financial Freedom With Us.",
-            "branchName": "Investments",
-            "subHeading": "Tailored investment options designed for long-term financial growth.",
-            "content": "Whether you’re just getting started or building a diverse portfolio, our investment experts help you make informed decisions. Explore mutual funds, SIPs, equity options, bonds, and wealth-management services that fit your financial goals perfectly.",
-            "buttonText": "Start Investing"
-        }
-    ],
-    "quotes": [
-        {
-            "quote": "“The service was incredibly smooth and hassle-free. The team guided me through every step and made the entire process feel effortless.”",
-            "name": "Jonathan Reed",
-            "designation": "Entrepreneur"
-        },
-        {
-            "quote": "“I’ve never experienced such professional and transparent support. They truly care about customer satisfaction and deliver beyond expectations.”",
-            "name": "Mariana Lopez",
-            "designation": "Marketing Specialist"
-        },
-        {
-            "quote": "“Their attention to detail and quality of service is unmatched. I felt completely supported from start to finish.”",
-            "name": "Chris Walker",
-            "designation": "Project Manager"
-        },
-        {
-            "quote": "“Reliable, quick, and extremely helpful. I would recommend them to anyone looking for trustworthy guidance.”",
-            "name": "Sara Mitchell",
-            "designation": "Consultant"
-        }
-    ],
-    "teamData": [
-        {
-            "name": "Johnathan Mercer",
-            "designation": "Group CEO",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "Amelia Cross",
-            "designation": "Chief Operating Officer (COO)",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "Rahul Deshmukh",
-            "designation": "Chief Financial Officer (CFO)",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "Sophia Bennett",
-            "designation": "Chief Marketing Officer (CMO)",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "Michael Andersen",
-            "designation": "Chief Technology Officer (CTO)",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "Layla Hassan",
-            "designation": "Director of Global Expansion",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "David Kim",
-            "designation": "Head of Client Relations",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        },
-        {
-            "name": "Elena Rodriguez",
-            "designation": "Human Resources Director",
-            "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
-        }
-    ],
-    "locations": [
-        "Dubai",
-        "Abu Dhabi",
-        "Sharjah",
-        "Ras Al Khaimah"
-    ],
-    "awardDescription": [
-        "Free Zone Industry Excellence Award 2016",
-        "Most Innovative Business Setup Consultancy 2020",
-        "Corporate Service Provider of the Year 2022",
-        "Finalist SME of the Year 2016",
-        "Certificate of Appreciation February 2020"
-    ],
-    "data": [
-        {
-            "value": "12",
-            "label": "Years of Excellence"
-        },
-        {
-            "value": "40",
-            "label": "Global Awards"
-        },
-        {
-            "value": "120,000",
-            "label": "Active Clients"
-        },
-        {
-            "value": "220",
-            "label": "Skilled Professionals"
-        },
-        {
-            "value": "32",
-            "label": "Countries Served"
-        },
-        {
-            "value": "98%",
-            "label": "Service Success Rate"
-        }
-    ],
-    "aboutDescription": [
-        "Creative Zone is the leading and most trusted business setup advisor in the Middle East, providing valuable support to aspiring entrepreneurs and SMEs since 2010.",
-        "With an impressive track record of assisting over 75,000 businesses locally and internationally, Creative Zone has established itself as the one - stop shop for companies seeking business solutions.",
-        "Our services cover every aspect of business setup, from seamless licensing processes to customized value - added solutions.With flexible payment plans and tailored services, we empower companies to promote, sustain and accelerate their operations."
-    ],
-    "recordsData": [
-        {
-            "title": "Proven Track Record",
-            "description": "Over 12,000+ companies successfully incorporated with complete guidance."
-        },
-        {
-            "title": "End-to-End Support",
-            "description": "From trade license approval to residency visa assistance — we handle everything."
-        },
-        {
-            "title": "Industry Expertise",
-            "description": "Our consultants bring decades of experience working with global markets."
-        },
-        {
-            "title": "Client-Centric Approach",
-            "description": "Personalized strategies tailored to your business goals and long-term growth."
-        },
-        {
-            "title": "Transparent Process",
-            "description": "No hidden fees. No unnecessary documentation. Just clarity and results."
-        }
-    ],
-    "allianceSection": {
-        "backgroundImage": "/statue.png",
-        "heading": "A Strategic Alliance with Encor Group",
-        "paragraphs": [
-            "In January 2025, Creative Zone embarked on a transformative journey by joining forces with Encor Group, a leading corporate, trust, and fund services platform headquartered in Hong Kong. Encor, majority-owned by Nexus Point Capital, a prominent Asian private equity firm, operates across key markets including China, Southeast Asia, and the GCC. This acquisition not only signifies Encor’s commitment to expanding its geographical footprint but also underscores Creative Zone’s pivotal role in the rapidly growing GCC corporate services sector.",
-            "The integration with Encor Group enhances our capabilities, allowing us to offer enriched services and access to a broader network, facilitating cross-border business opportunities and fostering long-term growth for our clients."
+        "gridData": [
+            {
+                "id": 1,
+                "image": "/test.jpg",
+                "mainHeading": "Empowering Your Financial Journey With Smarter, Faster Solutions.",
+                "branchName": "Banking",
+                "subHeading": "Seamless banking services designed to make your financial life easier.",
+                "content": "From instant account setup to secure digital payments, our banking division is crafted to give you complete control over your finances. Enjoy 24/7 support, transparent processes, personalized financial plans, and the convenience of smart mobile banking. Your money, managed your way.",
+                "buttonText": "Explore Banking"
+            },
+            {
+                "id": 2,
+                "image": "/test.jpg",
+                "mainHeading": "Your Trusted Partner For Insurance, Protection & Peace of Mind.",
+                "branchName": "Insurance",
+                "subHeading": "Comprehensive insurance solutions to secure every stage of your life.",
+                "content": "From health and life insurance to vehicle and travel coverage, our insurance services ensure that you and your loved ones stay protected. With easy claim processes, flexible plans, and unmatched support, we bring you peace of mind when it matters the most.",
+                "buttonText": "View Plans"
+            },
+            {
+                "id": 3,
+                "image": "/test.jpg",
+                "mainHeading": "Transforming Businesses With Technology, Innovation & Intelligence.",
+                "branchName": "IT Solutions",
+                "subHeading": "Smart digital solutions to scale your business to the next level.",
+                "content": "From cloud architecture to full-stack development, cybersecurity, AI tools, and automation services, our IT division delivers modern solutions tailored for every business. Increase efficiency, reduce costs, and stay ahead of the competition with cutting-edge tech.",
+                "buttonText": "Discover Solutions"
+            },
+            {
+                "id": 4,
+                "image": "/test.jpg",
+                "mainHeading": "Invest Smart. Grow Faster. Unlock Financial Freedom With Us.",
+                "branchName": "Investments",
+                "subHeading": "Tailored investment options designed for long-term financial growth.",
+                "content": "Whether you’re just getting started or building a diverse portfolio, our investment experts help you make informed decisions. Explore mutual funds, SIPs, equity options, bonds, and wealth-management services that fit your financial goals perfectly.",
+                "buttonText": "Start Investing"
+            }
         ]
     },
     "aboutPage": {
@@ -303,7 +209,111 @@
                 "designation": "Group CEO, Creative Zone & Executive Leadership Team Member, Encor Group",
                 "image": "/test.jpg"
             }
+        },
+        "teamData": [
+            {
+                "name": "Johnathan Mercer",
+                "designation": "Group CEO",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "Amelia Cross",
+                "designation": "Chief Operating Officer (COO)",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "Rahul Deshmukh",
+                "designation": "Chief Financial Officer (CFO)",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "Sophia Bennett",
+                "designation": "Chief Marketing Officer (CMO)",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "Michael Andersen",
+                "designation": "Chief Technology Officer (CTO)",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "Layla Hassan",
+                "designation": "Director of Global Expansion",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "David Kim",
+                "designation": "Head of Client Relations",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            },
+            {
+                "name": "Elena Rodriguez",
+                "designation": "Human Resources Director",
+                "image": "/mnt/data/892a083d-ef3e-4ad7-a713-757bc044f2ad.png"
+            }
+        ],
+        "PartnersClientsSection": {
+            "clientImageURL": [
+                "/images/clients/client0.png",
+                "/images/clients/client1.png",
+                "/images/clients/client2.png",
+                "/images/clients/client3.png",
+                "/images/clients/client4.png",
+                "/images/clients/client5.png",
+                "/images/clients/client6.png",
+                "/images/clients/client7.png"
+            ]
         }
+    },
+    "statsSection": {
+        "data": [
+            {
+                "value": "12",
+                "label": "Years of Excellence"
+            },
+            {
+                "value": "40",
+                "label": "Global Awards"
+            },
+            {
+                "value": "120,000",
+                "label": "Active Clients"
+            },
+            {
+                "value": "220",
+                "label": "Skilled Professionals"
+            },
+            {
+                "value": "32",
+                "label": "Countries Served"
+            },
+            {
+                "value": "98%",
+                "label": "Service Success Rate"
+            }
+        ],
+        "awards": [
+            {
+                "description": "Free Zone Industry Excellence Award 2016",
+                "awardImageURL": "/images/awards/award0.png"
+            },
+            {
+                "description": "Most Innovative Business Setup Consultancy 2020",
+                "awardImageURL": "/images/awards/award1.png"
+            },
+            {
+                "description": "Corporate Service Provider of the Year 2022",
+                "awardImageURL": "/images/awards/award2.png"
+            },
+            {
+                "description": "Finalist SME of the Year 2016",
+                "awardImageURL": "/images/awards/award3.png"
+            },
+            {
+                "description": "Certificate of Appreciation February 2020",
+                "awardImageURL": "/images/awards/award4.png"
+            }
+        ]
     },
     "servicePage": {
         "services": [
@@ -382,30 +392,16 @@
         "contactHeader": {
             "subtitle": "contact us",
             "title": "let's get started"
+        },
+        "form": {
+            "imageURL": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        },
+        "embeddedMap": {
+            "locationURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.395847957664!2d55.30007835900746!3d25.25291447466522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43000ab4b8ed%3A0xb841c92a2428953c!2sBurjuman%20Business%20Tower!5e0!3m2!1sen!2sin!4v1763803456604!5m2!1sen!2sin"
         }
     },
-    "landingPage": {
-        "hero": {
-            "backgroundImage": "/images/background2.jpg",
-            "title": "Business Setup Is Just The Beginning",
-            "subButtons": [
-                "Dubai",
-                "Abu Dhabi",
-                "Sharjah",
-                "Ras Al Khaimah"
-            ],
-            "mainHeading": "We make your corporate brand ideation",
-            "subHeading": "To Start Your Business in the UAE."
-        },
-        "stepsSection": {
-            "steps": [
-                "One-to-one Consultation with Business Setup Advisor",
-                "Selecting the Right Jurisdiction",
-                "Applying for Trade License",
-                "Initiating Visa and Emirates ID Applications",
-                "Register for Corporate Tax",
-                "Opening a Corporate Bank Account"
-            ]
-        }
-    }
+    "imageLinks": [
+        "https://images.unsplash.com/photo-1609867271967-a82f85c48531?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1672541298906-4aeb3edd3520?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ]
 }

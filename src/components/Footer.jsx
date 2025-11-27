@@ -48,20 +48,20 @@ const Footer = () => {
                         <div className="flex items-center gap-2">
                             <Mail size={20} strokeWidth={1.5} />
                             <a
-                                href={`mailto:${config.contact.email}`}
+                                href={`mailto:${config.footer.contact.email}`}
                                 className="text-gray-300 hover:text-(--accent-color) transition"
                             >
-                                {config.contact.email}
+                                {config.footer.contact.email}
                             </a>
                         </div>
                         {/* Phone */}
                         <div className="flex items-center gap-2">
                             <Phone size={20} strokeWidth={1.5} />
                             <a
-                                href={`tel:${config.contact.phone}`}
+                                href={`tel:${config.footer.contact.phone}`}
                                 className="text-gray-300 hover:text-(--accent-color) transition"
                             >
-                                {config.contact.phone}
+                                {config.footer.contact.phone}
                             </a>
                         </div>
                     </div>
@@ -71,27 +71,27 @@ const Footer = () => {
                 <div>
                     <h3 className="uppercase text-lg font-semibold mb-4">Follow Us</h3>
                     <div className="flex items-center gap-4">
-                        {config.social.facebook && (
+                        {config.footer.social.facebook && (
                             <a
-                                href={config.social.facebook}
+                                href={config.footer.social.facebook}
                                 target="_blank"
                                 className="hover:text-(--accent-color) transition"
                             >
                                 <Facebook size={20} strokeWidth={1.5} />
                             </a>
                         )}
-                        {config.social.instagram && (
+                        {config.footer.social.instagram && (
                             <a
-                                href={config.social.instagram}
+                                href={config.footer.social.instagram}
                                 target="_blank"
                                 className="hover:text-(--accent-color) transition"
                             >
                                 <Instagram size={20} strokeWidth={1.5} />
                             </a>
                         )}
-                        {config.social.linkedin && (
+                        {config.footer.social.linkedin && (
                             <a
-                                href={config.social.linkedin}
+                                href={config.footer.social.linkedin}
                                 target="_blank"
                                 className="hover:text-(--accent-color) transition"
                             >

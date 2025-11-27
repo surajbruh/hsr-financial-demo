@@ -1,6 +1,6 @@
 import React from 'react'
 import LandingGridItem from './LandingGridItem'
-import config from "../../config/index.json"
+import config from "../../../config/index.json"
 
 const LandingGrid = () => {
     return (
@@ -9,7 +9,7 @@ const LandingGrid = () => {
                 Business Setup & Corporate Services Grid
             </h2>
 
-            {config.gridData.map((item) => (
+            {config.landingPage.gridData.map((item) => (
                 <LandingGridItem
                     key={item.id}
                     mainHeading={item.mainHeading}

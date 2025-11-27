@@ -1,6 +1,6 @@
 import React from "react";
 import QuoteBlock from "./QuoteBlock";
-import config from "../../config/index.json";
+import config from "../../../config/index.json";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
@@ -47,7 +47,7 @@ const Testimonials = () => {
                                     }}
                                     aria-label="Client testimonial slider"
                                 >
-                                    {config.quotes?.map((quoteItem, idx) => (
+                                    {config.landingPage.testimonials.quotes?.map((quoteItem, idx) => (
                                         <SwiperSlide key={idx}>
                                             <QuoteBlock
                                                 quote={quoteItem.quote}
