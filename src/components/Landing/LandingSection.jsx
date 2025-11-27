@@ -5,7 +5,7 @@ import config from "../../config/index.json"
 const LandingSection = () => {
     return (
         <div
-            className="relative min-h-[90vh] md:min-h-screen bg-cover bg-center bg-no-repeat flex items-center"
+            className="relative min-h-[90vh] md:min-h-screen bg-fixed bg-cover bg-center bg-no-repeat flex items-center"
             style={{ backgroundImage: `url(${config.landingPage.hero.backgroundImage})` }}
         >
             {/* Dark overlay */}
