@@ -8,16 +8,20 @@ import ContactSection from '../components/Contact/ContactSection'
 
 const LandingPage = () => {
   return (
-    <main>
+    <main role="main">
       <LandingSection />
       <JurisdictionSection />
       <Testimonials />
       <LandingGrid />
       <StatsSection />
-      <div className='py-[5vw]'>
+
+      <section aria-labelledby="contact-heading" className='py-[5vw]'>
+        <h2 id="contact-heading" className="sr-only">Contact Our Team</h2>
         <ContactSection />
-      </div>
+      </section>
     </main>
+
+
   )
 }
 

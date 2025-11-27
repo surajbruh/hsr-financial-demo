@@ -3,37 +3,40 @@ import QuoteBlock from "./QuoteBlock";
 import config from "../../config/index.json";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
-import "swiper/css/pagination";
 
 const Testimonials = () => {
     return (
-        <section
-            aria-labelledby="testimonials-heading"
-            className="relative px-4 py-12 bg-[url('/meeting.jpg')] bg-cover bg-center"
-        >
-            {/* Dark overlay behind content */}
+        <section aria-labelledby="testimonials-heading" className="relative px-4 py-12 bg-[url('/meeting.jpg')] bg-cover bg-center" role="region" >
             <div className="absolute inset-0 bg-black/70 pointer-events-none" />
 
             <div className="relative z-10 mx-auto w-[92vw] md:w-[85vw] lg:w-[75vw]">
                 <div className="bg-transparent rounded-lg overflow-hidden">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                        {/* Left: Text + Slider */}
-                        <div className="px-4 md:px-6 lg:px-8 py-8">
-                            <div className="mb-6 text-white">
-                                <h3 className="uppercase font-medium text-sm md:text-base" id="testimonials-heading">
-                                    Testimonials
-                                </h3>
-                                <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl leading-snug mt-2">
-                                    Don’t Believe Us? Check Our Client Feedback
-                                </h2>
-                            </div>
 
-                            <div className="text-white">
+                        {/* TEXT + SLIDER SECTION */}
+                        <div className="px-4 md:px-6 lg:px-8 py-8 text-white">
+
+                            {/* Section heading */}
+                            <header className="mb-6">
+                                <h2
+                                    id="testimonials-heading"
+                                    className="uppercase font-semibold tracking-wide text-sm md:text-base"
+                                >
+                                    Client Testimonials
+                                </h2>
+
+                                <h3 className="font-extrabold text-2xl md:text-3xl lg:text-4xl leading-snug mt-2">
+                                    What Our Clients Say About Us
+                                </h3>
+                            </header>
+
+                            {/* Slider */}
+                            <div>
                                 <Swiper
-                                    modules={[Autoplay, Pagination]}
+                                    modules={[Autoplay]}
                                     spaceBetween={24}
                                     slidesPerView={1}
                                     loop={true}
@@ -42,7 +45,7 @@ const Testimonials = () => {
                                         disableOnInteraction: false,
                                         pauseOnMouseEnter: true,
                                     }}
-                                    aria-live="polite"
+                                    aria-label="Client testimonial slider"
                                 >
                                     {config.quotes?.map((quoteItem, idx) => (
                                         <SwiperSlide key={idx}>
@@ -57,16 +60,15 @@ const Testimonials = () => {
                             </div>
                         </div>
 
-                        {/* Right: Visual / Person image */}
-                        <div className="hidden lg:flex items-center justify-center p-6">
-                            {/* Use <img> for semantics & alt */}
+                        {/* IMAGE: RIGHT SIDE */}
+                        <figure className="hidden lg:flex items-center justify-center p-6">
                             <img
                                 src="/person.png"
-                                alt="Client testimonial example"
+                                alt="Happy client giving positive testimonial"
                                 className="w-full max-w-[420px] h-auto object-contain rounded-lg shadow-xl"
                                 loading="lazy"
                             />
-                        </div>
+                        </figure>
                     </div>
                 </div>
             </div>
