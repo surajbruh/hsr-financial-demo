@@ -45,7 +45,7 @@ const Header = () => {
 
                 {/* MOBILE MENU BUTTON */}
                 <button
-                    className="md:hidden focus:outline-none text-gray-800"
+                    className={`md:hidden focus:outline-none ${isScrolled ? "text-white" : "text-gray-800"}`}
                     onClick={() => setMenuOpen(!menuOpen)}
                 >
                     {menuOpen ? <X size={26} strokeWidth={1.5} /> : <Menu size={26} strokeWidth={1.5} />}
